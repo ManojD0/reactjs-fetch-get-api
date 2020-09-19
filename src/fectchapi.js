@@ -25,7 +25,7 @@ class Toggle extends React.Component {
     }
   
     render() {
-        console.log("888ds",this.state.date)
+       // console.log("888ds",this.state.date)
       return (
         <div className="container">
           <button onClick={this.handleClick}>result</button>
